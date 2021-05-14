@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Disorder</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+	<body>
+		<header>
+			<div class="header_left">
+				<h1>Disorder</h1>
+			</div>
+			<div class="navigation_left">
+				<a class="search" title="Главная" href="index.html">Главная</a>
+			</div>
+			<div class="navigation_left1">
+				<a class="search" tile="Контент" href="#">Войти</a>
+			</div>
+			<div class="navigation_left">
+				<a class="search" title="Найти нас" href="karta.html">Найти нас</a>
+			</div>
+			<div class="navigation_left">
+				<a class="search" href="other.html"><strong>...</strong></a>
+			</div>
+		</header>
+		<section>
+			<h2 style="color: white; margin-left: 40%;">Слушайте музыку вовремя регистрации</h2> 	
+			<div class="container">
+
+				<div onclick="test()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>Disorder</h2>
+					</div>
+				</div>
+				<div onclick="test1()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>Overkill</h2>
+					</div>
+				</div>
+				<div onclick="test2()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>The Mob</h2>
+					</div>
+				</div>
+				<div onclick="test3()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>Aiwa</h2>
+					</div>
+				</div>
+				<div onclick="test4()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>Insomnia</h2>
+					</div>
+				</div>
+				<div onclick="test5()" class="box">
+					<span></span>
+					<div class="content">
+						<h2>Beg Me</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="reg">
+				
+				<form action="/action_page.php">
+  					<div class="container">
+    					<input type="text" placeholder="Enter name" name="text" required>
+    					<input type="text" placeholder="Enter Email" name="email" required>
+    					<input type="password" placeholder="Enter Password" name="psw" required>
+    					<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    					<button type="submit" class="registerbtn">Регистрация</button>
+  					</div>
+				</form>
+			</div>
+		</section>
+		<script type="text/javascript">
+			function test(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/riot-disorder.mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+    		function test1(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/riot-overkill.mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+    		function test2(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/RiOT - The Mob.mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+    		function test3(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/riot-aiwa.mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+    		function test4(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/Inova - Insomnia (320  kbps).mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+    		function test5(){
+        		var audio = document.createElement('audio');
+        		audio.setAttribute("autoplay","true");
+        		audio.innerHTML = "<source src=\"Music/EBEN, Biometrix, Riell - Beg Me.mp3\" type=\"audio/mpeg\">";
+        		document.body.appendChild(audio);
+    		}
+		</script>
+	</body>
+</html>

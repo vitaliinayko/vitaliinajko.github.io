@@ -1,0 +1,222 @@
+body{
+	background-color: #17161c;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box; 
+	font-family: arial;
+}
+header{
+	max-width: 15%;
+	height: 100%;
+	background-color: #1b2733;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;	
+
+}
+.header_left{
+	text-align: center;
+}
+header h1{
+	color: white;
+	padding-left: 20px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.navigation_left{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+.navigation_left1{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #191e21;
+	text-align: center;
+}
+.navigation_left:first-child{
+  background-color: #191e21;
+}
+.search{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation_left:hover{
+	background-color: #191e21;
+}
+.container {
+    padding: 16px;
+    background-color: #141317;
+    color: white; 
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #6d856f;
+    outline: none;
+}
+.registerbtn {
+   	background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registerbtn:hover {
+    opacity: 1;
+}
+.signin {
+	background-color: #f1f1f1;
+    text-align: center;
+}
+.reg{
+	text-align:center;
+	float: left;
+	width: 40%;
+	margin:  10px 0 0 450px;
+}
+.container{
+	font-family: consolas;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:40px 0;
+	flex-wrap: wrap;
+	margin-left: 20%;
+}
+.container .box{
+	
+	position: relative;
+	width: 270px;
+	height: 65px;
+	color: #fff;
+	background-color: #111;
+	justify-content: left;
+	align-items: left;
+	margin: 20px 30px;
+	transition: 0.5s;
+}
+
+.container .box::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(45deg, #ffbc00, #ff0058); 
+}
+.container .box::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(45deg, #ffbc00, #ff0058);
+	filter: blur(30px); 
+}
+.container .box:nth-child(2)::before, .container .box:nth-child(2)::after{
+	background:linear-gradient(45deg, #03a9f4, #ff0058);
+}
+.container .box:nth-child(3)::before, .container .box:nth-child(3)::after{
+	background:linear-gradient(45deg, #4dff03, #00d0ff);
+}
+.container .box:nth-child(4)::before, .container .box:nth-child(4)::after{
+	background:linear-gradient(45deg, #fa46a9, #46ebfa);
+}
+.container .box:nth-child(5)::before, .container .box:nth-child(5)::after{
+	background:linear-gradient(45deg, #ffd21c, #24ff1c);
+}
+.container .box:nth-child(6)::before, .container .box:nth-child(6)::after{
+	background:linear-gradient(45deg, #00d0ff, #03a9f4);
+}
+.container .box:nth-child(7)::before, .container .box:nth-child(7)::after{
+	background:linear-gradient(45deg, #ff1c24, #ff1c24);
+}
+.container .box:nth-child(8)::before, .container .box:nth-child(8)::after{
+	background:linear-gradient(45deg, #ff1c24, #ff1cf7);
+}
+.container .box:nth-child(9)::before, .container .box:nth-child(9)::after{
+	background:linear-gradient(45deg, #f7ff1c, #1c3eff);
+}
+.container .box:nth-child(10)::before, .container .box:nth-child(10)::after{
+	background:linear-gradient(45deg, #c5c8d9, #18225e);
+}
+.container .box:nth-child(11)::before, .container .box:nth-child(11)::after{
+	background:linear-gradient(45deg, #fa46a9, #46ebfa);
+}
+.container .box:nth-child(12)::before, .container .box:nth-child(12)::after{
+	background:linear-gradient(45deg, #ffd21c, #24ff1c);
+}
+.container .box:nth-child(13)::before, .container .box:nth-child(13)::after{
+	background:linear-gradient(45deg, #00d0ff, #03a9f4);
+}
+.container .box:nth-child(14)::before, .container .box:nth-child(14)::after{
+	background:linear-gradient(45deg, #ff1c24, #ff1c24);
+}
+.container .box:nth-child(15)::before, .container .box:nth-child(15)::after{
+	background:linear-gradient(45deg, #ff1c24, #ff1cf7);
+}
+.container .box span{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	right: 6px;
+	bottom: 6px;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2; 
+}
+.container .box span::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	pointer-events: none; 
+}
+.container .box .content{
+	position: relative;
+	z-index: 10;
+	padding: 20px 40px;
+}
+.container .box .content h2{
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.container .box .content p{
+	font-size: 1.1em;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.container .box .content h2:hover, .container .box .content p:hover{
+	color:SteelBlue;
+	cursor: pointer;
+}
+.h2_like{
+	color: #fff;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
