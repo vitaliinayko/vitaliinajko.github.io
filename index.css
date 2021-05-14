@@ -101,51 +101,51 @@ section{
 }
 .container .box:nth-child(1)::before, .container .box:nth-child(1)::after{
 	background:linear-gradient(45deg, #03a9f4, #ff0058);
-	background-image: url('Pictures/anme.jpg');
+	background-image: url('anme.jpg');
 }
 .container .box:nth-child(2)::before, .container .box:nth-child(2)::after{
 	background:linear-gradient(45deg, #03a9f4, #ff0058);
-	background-image: url('Pictures/over you.jpg');
+	background-image: url('over you.jpg');
 }
 .container .box:nth-child(3)::before, .container .box:nth-child(3)::after{
 	background:linear-gradient(45deg, #4dff03, #00d0ff);
-	background-image: url('Pictures/starlight.jpg');
+	background-image: url('starlight.jpg');
 }
 .container .box:nth-child(4)::before, .container .box:nth-child(4)::after{
 	background:linear-gradient(45deg, #fa46a9, #46ebfa);
-	background-image: url('Pictures/m0lly.jpg');
+	background-image: url('m0lly.jpg');
 }
 .container .box:nth-child(5)::before, .container .box:nth-child(5)::after{
 	background:linear-gradient(45deg, #ffd21c, #24ff1c);
-	background-image: url('Pictures/tik tok.jpg');
+	background-image: url('tik tok.jpg');
 }
 .container .box:nth-child(6)::before, .container .box:nth-child(6)::after{
 	background:linear-gradient(45deg, #00d0ff, #03a9f4);
-	background-image: url('Pictures/eat you alive.jpg');
+	background-image: url('eat you alive.jpg');
 }
 .container .box:nth-child(7)::before, .container .box:nth-child(7)::after{
 	background:linear-gradient(45deg, #ff1c24, #ff1c24);
-	background-image: url('Pictures/ревную.jpg');
+	background-image: url('ревную.jpg');
 }
 .container .box:nth-child(8)::before, .container .box:nth-child(8)::after{
 	background:linear-gradient(45deg, #ff1c24, #ff1cf7);
-	background-image: url('Pictures/all i need.jpg');
+	background-image: url('all i need.jpg');
 }
 .container .box:nth-child(9)::before, .container .box:nth-child(9)::after{
 	background:linear-gradient(45deg, #f7ff1c, #1c3eff);
-	background-image: url('Pictures/это.jpg');
+	background-image: url('это.jpg');
 }
 .container .box:nth-child(10)::before, .container .box:nth-child(10)::after{
 	background:linear-gradient(45deg, #c5c8d9, #18225e);
-	background-image: url('Pictures/starlight.jpg');
+	background-image: url('starlight.jpg');
 }
 .container .box:nth-child(11)::before, .container .box:nth-child(11)::after{
 	background:linear-gradient(45deg, #fa46a9, #46ebfa);
-	background-image: url('Pictures/starlight.jpg');
+	background-image: url('starlight.jpg');
 }
 .container .box:nth-child(12)::before, .container .box:nth-child(12)::after{
 	background:linear-gradient(45deg, #ffd21c, #24ff1c);
-	background-image: url('Pictures/starlight.jpg');
+	background-image: url('starlight.jpg');
 }
 .container .box span{
 	position: absolute;
