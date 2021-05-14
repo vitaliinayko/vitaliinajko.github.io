@@ -104,12 +104,16 @@ section{
 	height: 200px;
 	float: left;
 	margin: 0 0 0 1%;
+	justify-content: center;
+	align-items: center;
 }
 .ser_right{
 	width: 280px;
 	height: 200px;
 	float: right;
 	margin: 0 1% 0 0;
+	justify-content: center;
+	align-items: center;
 }
 .ser_left:hover, .ser_right:hover{
 	opacity: 70%;
