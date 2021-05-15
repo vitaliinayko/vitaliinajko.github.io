@@ -1,4 +1,4 @@
-@app.route('/template', methods=['GET', 'POST'])
+@app.route('/reg.php', methods=['GET', 'POST'])
 def template():
     if request.method == 'POST':
         return("Hello")
