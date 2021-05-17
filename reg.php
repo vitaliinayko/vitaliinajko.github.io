@@ -25,7 +25,7 @@
         exit();
     }
 
-    $mysql = new mysqli('localhost', 'mysql', 'mysql', 'sql_mus');
+    $mysql = new mysqli('localhost', 'mysql', 'mysql', 'mus_copy');
     $mysql->query("INSERT INTO `music` (`name`, `mail`, `password`) VALUES('$name', '$email', '$psw')");
 
     $mysql->close();
